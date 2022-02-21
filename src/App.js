@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Routes, Route } from 'react-router-dom'
 
 import './App.css'
@@ -11,7 +11,7 @@ import { auth } from './firebase/firebase.utils'
 // import { render } from 'node-sass'
 
 // convert App to a Stateful class with React component
-class App extends React.Component {
+class App extends Component {
   constructor() {
     super()
 
